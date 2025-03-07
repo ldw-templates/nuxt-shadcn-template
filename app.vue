@@ -1,10 +1,7 @@
 <template>
   <div>
-    <div>
-      <Button variant="ghost">Click me</Button>
-      <ThemeButton></ThemeButton>
-    </div>
-    <!-- <NuxtRouteAnnouncer />
-    <NuxtWelcome /> -->
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
